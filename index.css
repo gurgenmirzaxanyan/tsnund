@@ -1,4 +1,4 @@
-      body {
+body {
             font-family: 'Montserrat', sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
@@ -23,6 +23,7 @@
             margin-bottom: 25px;
         }
 
+        /* Ֆորմայի դաշտերը */
         .form-group {
             margin-bottom: 20px;
             text-align: left;
@@ -51,6 +52,7 @@
             border-color: #764ba2;
         }
 
+        /* Կոճակ */
         .submit-btn {
             width: 100%;
             background: #764ba2;
