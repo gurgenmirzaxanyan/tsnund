@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Հաստատել Մասնակցությունը</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+ 
+  
+    </style>
+</head>
+<body>
+
+    <div class="rsvp-card">
+        <h2>✅ Կգա՞ք ծնունդիս</h2>
+        
+        <form id="rsvpForm" onsubmit="sendToWhatsApp(event)">
+            
+            <div class="form-group">
+                <label for="name">Ձեր Անունը</label>
+                <input type="text" id="name" placeholder="Օրինակ՝ Արմեն" required>
+            </div>
+
+            <div class="form-group">
+                <label for="count">Քանի՞ հոգով եք լինելու</label>
+                <select id="count">
+                    <option value="1">Մենակ ես (1 հոգի)</option>
+                    <option value="2">2 հոգով</option>
+                    <option value="3">3 հոգով</option>
+                    <option value="4">4 հոգով</option>
+                    <option value="Imus">Չեմ կարողանա գալ 😔</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">Ուղարկել պատասխանը</button>
+        </form>
+
+        <a href="hravir.html" class="back-link">← Վերադառնալ հրավերի էջ</a>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
