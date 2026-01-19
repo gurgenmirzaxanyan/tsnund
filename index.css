@@ -28,6 +28,11 @@ body {
             margin-bottom: 20px;
             text-align: left;
         }
+.form-groupa {
+            margin-bottom: 20px;
+            text-align: left;
+            width:100px;
+        }
 
         label {
             display: block;
@@ -79,3 +84,4 @@ body {
             text-decoration: none;
             font-size: 0.9rem;
         }
+
